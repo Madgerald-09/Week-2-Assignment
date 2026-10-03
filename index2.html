@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="form">
+      <h1>Website Search</h1>
+
+      <form action="/search" method="get">
+        <label for="search">Search</label>
+        <input type="text" id="search" name="search" placeholder="Search..." />
+        <button type="submit">Search</button>
+      </form>
+    </main>
+
+    <!-- 1. The action attribute tells the browser where to send the form data. -->
+    <!-- 2. The method attribute tells the browser how to send the form data, such as with GET or POST. -->
+    <!-- 3. GET is useful for search because search terms appear in the URL, which can be bookmarked or shared. -->
+    <!-- 4. POST is often used for registration because it sends the form data in the request body instead of the URL. -->
+    <!-- 5. No. POST does not encrypt information. HTTPS protects data while it travels between browser and server. -->
+  </body>
+</html>
